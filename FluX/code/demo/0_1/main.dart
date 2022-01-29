@@ -22,6 +22,7 @@ class ViewA extends StatelessWidget {
         style: TextStyle(
           fontSize: 40.0,
           fontWeight: FontWeight.bold,
+          color: Colors.red,
         ),
       ),
     );
