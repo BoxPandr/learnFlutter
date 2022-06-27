@@ -3,7 +3,7 @@ import 'dart:io';
 void main(List<String> arguments) {
   
 
-three();
+threeErr();
 }
 
 
@@ -136,7 +136,8 @@ print("C begin");
 Future promise = Future((){
   for (var i = 0; i < 10000; i++) {
   a = "哈哈哈";
-  throw Exception("    xx _  x  _ x   ");
+  }
+  return 666;
 }
 
 });
@@ -146,6 +147,9 @@ Future promise = Future((){
 
 promise.catchError((err){
   print("捕获到了" + err.toString());
+  return err;
+}).then((value){
+  print(val)
 });
 
 

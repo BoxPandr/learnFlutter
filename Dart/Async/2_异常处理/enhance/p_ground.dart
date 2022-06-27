@@ -106,6 +106,8 @@ Future promise = Future((){
 
 
 // 这代码，真搞笑
+
+// 其实，没有问题
 promise.catchError((err){
   print("捕获到了" + err.toString());
 }).then((value){
