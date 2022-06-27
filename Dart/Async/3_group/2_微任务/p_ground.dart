@@ -78,3 +78,37 @@ scheduleMicrotask((){
   print("micro task C");
 });
 }
+
+
+
+
+
+
+
+fourth(){
+
+
+Future three = Future((){
+
+  print("3");
+  return "444";
+});
+
+Future((){
+
+  print("55");
+});
+
+scheduleMicrotask((){
+  print("22222");
+});
+
+
+three.then((value) => print(value));
+
+
+
+
+print("11");
+
+}
