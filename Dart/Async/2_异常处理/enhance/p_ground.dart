@@ -104,6 +104,8 @@ Future promise = Future((){
 // 使用 then ，来接收数据
 
 
+
+// 这代码，真搞笑
 promise.catchError((err){
   print("捕获到了" + err.toString());
 }).then((value){
