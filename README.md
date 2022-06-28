@@ -35,3 +35,9 @@ flutter 工具网站
 <hr>
 
 ### 异步，与线程，无关
+
+<hr>
+
+#### 异步的原理是 Timer,
+
+Future 也是通过 Timer，来实现
