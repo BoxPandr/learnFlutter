@@ -22,3 +22,19 @@ export 'src/entry/dio_for_native.dart' show DioForNative;
 ```
 
 show 是仅暴露的意思？
+
+<hr>
+
+#### `MixIn` 混入,
+
+就像类的扩展，
+
+多继承的一种方式。
+
+<hr>
+
+使用 `with` 来混入，
+
+一个或多个，MixIn
+
+<hr>
