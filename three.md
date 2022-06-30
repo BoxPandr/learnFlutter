@@ -31,3 +31,9 @@ BuildContext context
 <hr>
 
 deactivate 方法，即将销毁
+
+<hr>
+
+Material App 的 theme 主题，
+
+通过 Widget 的继承，来实现
