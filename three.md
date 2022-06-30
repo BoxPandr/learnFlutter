@@ -19,3 +19,15 @@ BuildContext context
 ```
 
 <hr>
+
+当 State 对象，
+
+从渲染树中，移除的时候，
+
+就会调用
+
+`deactivate`
+
+<hr>
+
+deactivate 方法，即将销毁
