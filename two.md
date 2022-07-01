@@ -23,3 +23,13 @@
 <hr>
 
 旧的 Widget，从 element 里面获取
+
+<hr>
+
+<hr>
+
+<hr>
+
+Flutter 的渲染原理，
+
+也就是 Widget 的渲染原理
