@@ -5,3 +5,13 @@
 <hr>
 
 ABI
+
+<hr>
+
+data appendBytes: length:
+
+<hr>
+
+我有哪些数据类型，
+
+意思是，我的第一个标志位，写入啥
