@@ -13,3 +13,17 @@ Flutter
 <hr>
 
 交给 app 去 JIT ，编译出效果
+
+<hr>
+
+<hr>
+
+跑在 mac 上的 tool,
+
+与跑在模拟器上的 Flutter app,
+
+通过 http 通讯
+
+<hr>
+
+通过 RPC , socket 通讯
